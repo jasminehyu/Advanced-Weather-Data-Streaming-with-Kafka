@@ -90,9 +90,9 @@ Example:
 ```
 
 ## Challenges and Solutions
--- Streaming Data Handling: The project employs "exactly once" semantics to ensure reliable message processing in a real-time streaming context.
--- Data Integrity: Advanced settings in Kafka producers ensure that data is consistently acknowledged across all replicas, minimizing data loss.
--- Crash Recovery: Consumer scripts are equipped with mechanisms to recover from crashes, including checkpointing and restarting from the last known good state.
+- **Streaming Data Handling:** The project employs "exactly once" semantics to ensure reliable message processing in a real-time streaming context.
+- **Data Integrity:** Advanced settings in Kafka producers ensure that data is consistently acknowledged across all replicas, minimizing data loss.
+- **Crash Recovery:** Consumer scripts are equipped with mechanisms to recover from crashes, including checkpointing and restarting from the last known good state.
 
 
 ## System Architecture
